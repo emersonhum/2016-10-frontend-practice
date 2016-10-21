@@ -51,7 +51,6 @@ table {
   Custom styles
   ========================================
 */
-
 body {
   background: #293f50;
   color: #888;
@@ -63,7 +62,6 @@ body {
   Grid
   ========================================
 */
-
 *,
 *:before,
 *:after {
@@ -87,7 +85,6 @@ body {
   Typography
   ========================================
 */
-
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
@@ -126,7 +123,6 @@ cite, em {
   Links
   ========================================
 */
-
 a:hover {
   color: #a9b2b9;
 }
@@ -143,7 +139,6 @@ p a {
   Buttons
   ========================================
 */
-
 .btn {
   border-radius: 5px;
   color: #fff;
@@ -170,7 +165,6 @@ p a {
   Home
   ========================================
 */
-
 .hero {
   color: #fff;
   padding: 22px 80px 66px 80px;
@@ -190,7 +184,6 @@ p a {
   Clearfix
   ========================================
 */
-
 .group:before,
 .group:after {
   content: "";
@@ -209,7 +202,6 @@ p a {
   Rows
   ========================================
 */
-
 .row {
   background: #fff;
   padding: 66px 0 44px 0;
@@ -231,7 +223,6 @@ p a {
   Primary header
   ========================================
 */
-
 .logo {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
@@ -266,7 +257,6 @@ p a {
   Navigation
   ========================================
 */
-
 .nav {
   text-align: right;
 }
@@ -284,7 +274,6 @@ p a {
   Teaser
   ========================================
 */
-
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
@@ -294,7 +283,6 @@ p a {
   Primary footer
   ========================================
 */
-
 .primary-footer small {
   float: left;
   font-weight: 400;
@@ -334,11 +322,26 @@ p a {
   Leads
   ========================================
 */
-
 .lead {
   text-align: center;
 }
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.speaker {
+  margin-bottom: 44px;
 }
